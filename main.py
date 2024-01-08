@@ -26,11 +26,11 @@ local_css("style/style.css")
 #---Header---
 with st.container():
     st.subheader("Cześć! Jestem Łukasz 👋")
-    st.title("Student, programista specjalizujący się w skryptach Pythonowych i aplikacjach .NET")
-    st.write("Moją pasją jest testowanie różnych zastosowań dla Pythona")
-    st.write("[Zapraszam do zapoznania się z moim portfolio na githubie >](https://github.com/lmalanczuk?tab=repositories)")
+    st.title("Jestem studentem drugiego roku informatyki oraz programistą, który specjalizuje się w tworzeniu skryptów w języku Python, aplikacjach w technologii .NET i grach tworzonych w UNITY.")
+    st.write("Moją pasją jest eksplorowanie różnych zastosowań dla Pythona oraz nieustanne poszerzanie swojej wiedzy w obszarze programowania.")
+    st.write("[Zapraszam do zapoznania się z moim portfolio na githubie](https://github.com/lmalanczuk?tab=repositories)")
 
-#---WHAT I DO
+#---WHAT I DO--
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
