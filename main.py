@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="Moja strona", page_icon=":sunglasses:", layout="wide")
+st.set_page_config(page_title="Portfolio", page_icon="💻", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
