@@ -39,9 +39,10 @@ with st.container():
         st.write('##')
         st.write(
             """
-            Jestem studentem drugiego roku Informatyki na Uniwersytecie Ekonomicznym w Katowicach.\n
-            W wolnym czasie uczę się programowania w Pythonie oraz tworzę gry i aplikacje z wykorzystaniem C# oraz UNITY.\n
-            Moim celem jest zostanie programistą Pythona, dlatego też w wolnym czasie uczę się nowych rzeczy i rozwijam swoje umiejętności.\n
+            Jestem studentem drugiego roku Informatyki na Uniwersytecie Ekonomicznym w Katowicach i jestem zafascynowany światem programowania oraz tworzeniem gier i aplikacji. Moja pasja do programowania rozpoczęła się od Pythona, który jest moim głównym językiem programowania. Aktywnie rozwijam się w programowaniu w Pythonie, zdobywając doświadczenie w różnych dziedzinach, takich jak web development, data science czy machine learning. \n
+            Jednak nie ograniczam się tylko do Pythona. Chcę poszerzać swoje umiejętności, dlatego również rozwijam się w C# i UNITY. Tworzenie gier i aplikacji za pomocą tych technologii daje mi możliwość wykorzystania swojej kreatywności i umiejętności programistycznych. Moje projekty obejmują zarówno rozrywkowe gry, które dostarczają radość i emocje, jak i praktyczne aplikacje, które mogą być przydatne w codziennym życiu.\n
+        Jako student Informatyki, zdobywam solidne podstawy teoretyczne, które integruję z praktycznym doświadczeniem zdobytym podczas samodzielnego tworzenia projektów programistycznych. Jestem otwarty na nowe wyzwania i zawsze gotów do nauki nowych technologii. Moje cele zawodowe koncentrują się na staniu się doświadczonym programistą Pythona, koncentrując się na projektach, które nie tylko rozwijają moje umiejętności techniczne, ale także pozwalają mi wykorzystać kreatywność w rozwiązywaniu problemów. \n
+        Zapraszam do zapoznania się z moimi projektami i do kontaktu, jeśli jesteś zainteresowany współpracą lub masz pytania
             """
         )
     with right_column:
