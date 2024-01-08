@@ -51,7 +51,7 @@ with st.container():
 #--PROJECTS--
 with st.container():
     st.write("---")
-    st.header("My Projects")
+    st.header("Moje projekty")
     st.write('##')
     image_column, text_column = st.columns((1, 2))
     with image_column:
