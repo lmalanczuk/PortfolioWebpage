@@ -12,7 +12,7 @@ def load_lottieurl(url):
     return r.json()
 
 #---LOAD ASSETS
-lottie_coding = load_lottieurl("https://lottie.host/9d4aa0a6-c99f-4b51-ad80-f8a3345d1a6b/GX84zTo52G.json")
+lottie_coding = load_lottieurl("https://lottie.host/cd3f099b-ee94-4461-843b-5502215822c7/x9kCY7Cydd.json")
 img_pong_unity = Image.open("images/pong_unity.png")
 img_notepad_tkinter = Image.open("images/notepad_tkinter.png")
 
