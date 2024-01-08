@@ -1,7 +1,7 @@
 from PIL import Image
 import streamlit as st
 import requests
-import streamlit_lottie as st_lottie
+from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Moja strona", page_icon=":sunglasses:", layout="wide")
 
