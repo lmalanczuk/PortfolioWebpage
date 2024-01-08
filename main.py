@@ -26,7 +26,7 @@ local_css("style/style.css")
 #---Header---
 with st.container():
     st.subheader("Cześć! Jestem Łukasz 👋")
-    st.title("Student Informatyki, Programista Pythona, Twórca Aplikacji .NET i Gier w UNITY. ")
+    st.title("Student Informatyki i Entuzjasta Pythona, UNITY i Machine Learningu")
     st.write("Moją pasją jest eksplorowanie różnych zastosowań dla Pythona oraz nieustanne poszerzanie swojej wiedzy w obszarze programowania.")
     st.write("[Zapraszam do zapoznania się z moim portfolio na githubie](https://github.com/lmalanczuk?tab=repositories)")
 
