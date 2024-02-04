@@ -94,7 +94,7 @@ with st.container():
             Programmed in python using obd and tkinter libraries. \n
             The obd library allowed me to communicate with the car, and with the tkinter library I programmed a basic \n
             graphical interface allowing the program to communicate with the user.\n
-            Link do repozytorium: [OBDII]("https://github.com/lmalanczuk/OBDReader")
+            Repository link:  [OBDII]("https://github.com/lmalanczuk/OBDReader")
             """
         )
 
