@@ -87,6 +87,7 @@ with st.container():
         st.write(
             """
             Aplikacja do skanowania portu OBDII w samochodzie. \n
+            Zaprogramowana w Pythonie z wykorzystaniem biblioteki obd, która pozwala na komunikację z samochodem za pomocą protokołu OBDII, oraz tkinter \n
             Link do repozytorium: [OBDII]("https://github.com/lmalanczuk/OBDReader")
             """
         )
