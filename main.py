@@ -36,7 +36,7 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.subheader("What do i do?")
+        st.subheader("What do I do?")
         st.write('##')
         st.write(
             """
