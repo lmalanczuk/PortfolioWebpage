@@ -26,24 +26,25 @@ local_css("style/style.css")
 
 #---Header---
 with st.container():
-    st.subheader("Cześć! Jestem Łukasz 👋")
-    st.title("Student Informatyki i Entuzjasta Pythona, UNITY i Machine Learningu")
-    st.write("Moją pasją jest eksplorowanie różnych zastosowań dla Pythona oraz nieustanne poszerzanie swojej wiedzy w obszarze programowania.")
-    st.write("[Zapraszam do zapoznania się z moim portfolio na githubie](https://github.com/lmalanczuk?tab=repositories)")
+    st.subheader("Hi! I'm Łukasz 👋")
+    st.title("Computer Science Student and Enthusiast of Python, UNITY and Machine Learning")
+    st.write("My passion is to explore different usages for Python and to constantly expand my knowledge in the field of programming.")
+    st.write("[Feel free to check out my portfolio on github](https://github.com/lmalanczuk?tab=repositories)")
 
 #---WHAT I DO--
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.subheader("Co robię?")
+        st.subheader("What do i do?")
         st.write('##')
         st.write(
             """
-            Jestem studentem drugiego roku Informatyki na Uniwersytecie Ekonomicznym w Katowicach. Moją pasją jest programowanie i tworzenie gier oraz aplikacji.
-             Głównie skupiam się na Pythonie, zdobywając doświadczenie w web developmencie, data science i machine learningu. Dodatkowo, rozwijam się także w C# i UNITY, 
-             tworząc zarówno rozrywkowe gry, jak i praktyczne aplikacje. Moje cele zawodowe skupiają się na staniu się doświadczonym programistą Pythona, wykorzystując kreatywność 
-             w rozwiązywaniu problemów. Zapraszam do zapoznania się z moimi projektami poniżej i do kontaktu w razie pytań!
+            I'm a second year student of Computer Science at the University of Economics in Katowice. My passion is programming, application development and machine learning.
+            I mainly focus on Python, gaining experience in web development, data science and machine learning. In addition, I am also developing in C# and UNITY, creating both 
+            entertaining games and practical applications. My career goals are focused on becoming an experienced Python programmer, using creativity to solve problems. 
+            Feel free to check out my projects below and contact me with any questions!
+            
             """
         )
     with right_column:
@@ -52,29 +53,32 @@ with st.container():
 #--PROJECTS--
 with st.container():
     st.write("---")
-    st.header("Moje projekty")
+    st.header("My projects")
     st.write('##')
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_pong_unity, caption="Pong w Unity")
+        st.image(img_pong_unity, caption="PONG made in UNITY")
     with text_column:
-        st.subheader("PONG stworzony w UNITY")
+        st.subheader("PONG made in UNITY")
         st.write(
             """
-            Pierwsza gra stworzona przeze mnie w UNITY. Jest to klasyczny PONG, w którym można zagrać z komputerem lub z drugą osobą. \n
-            Link do repozytorium: [PONG]("https://github.com/lmalanczuk/PongClone")
+            The game offers the basic features of the original PONG. You can play against a simple artificial intelligence as against a second player. \n
+            The project includes the design of graphics, physics and the implementation of basic artificial intelligence based on continuous analysis of the ball's position. \n
+            Repository link: [PONG]("https://github.com/lmalanczuk/PongClone")
             """
         )
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_notepad_tkinter, caption="Notatnik w Pythonie")
+        st.image(img_notepad_tkinter, caption="Notepad created in Python")
     with text_column:
-        st.subheader("Notatnik stworzony w Pythonie")
+        st.subheader("Notepad created in Python")
         st.write(
             """
-            Notatnik stworzony w Pythonie z wykorzystaniem biblioteki Tkinter. \n
-            Link do repozytorium: [Notepad]("https://github.com/lmalanczuk/PongClone")
+            A simple notepad created in Python. \n
+            I used the tkinter library to implement the basic graphic design. \n
+            The program allows you to open a previously saved file or create a new one, edit it and save it to a text file.  \n
+            Repository link: [Notepad]("https://github.com/lmalanczuk/PongClone")
             """
         )
 
@@ -86,9 +90,10 @@ with st.container():
         st.subheader("Skaner portu OBDII")
         st.write(
             """
-            Aplikacja do skanowania portu OBDII w samochodzie. \n
-            Zaprogramowana w Pythonie z wykorzystaniem biblioteki obd, która pozwala na komunikację z samochodem \n 
-            za pomocą protokołu OBDII. Interfejs graficzny został zaprogramowany z użyciem biblioteki Tkinter \n
+            An application that lets you scan DTC errors and analyze the status of your car using the OBD II port. \n
+            Programmed in python using obd and tkinter libraries. \n
+            The obd library allowed me to communicate with the car, and with the tkinter library I programmed a basic \n
+            graphical interface allowing the program to communicate with the user.\n
             Link do repozytorium: [OBDII]("https://github.com/lmalanczuk/OBDReader")
             """
         )
@@ -98,16 +103,16 @@ import streamlit as st
 # ---CONTACT---
 with st.container():
     st.write("---")
-    st.header("Skontaktuj się ze mną!")
+    st.header("Contact me!")
     st.write('##')
 
     contact_form = """
    <form action="https://formsubmit.co/l.malanczuk03@gmail.com" method="POST">
     <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Twoje imie" required>
-    <input type="email" name="email" placeholder="Twoj adres email" required>
-    <textarea name="Wiadomość" placeholder="Tutaj wpisz swoją wiadomość" required></textarea>
-    <button type="submit" onclick="clearForm()">Wyślij</button>
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <textarea name="Wiadomość" placeholder="Enter your message here" required></textarea>
+    <button type="submit" onclick="clearForm()">Send</button>
 </form>
 
 <script>
