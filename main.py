@@ -15,6 +15,7 @@ def load_lottieurl(url):
 lottie_coding = load_lottieurl("https://lottie.host/cd3f099b-ee94-4461-843b-5502215822c7/x9kCY7Cydd.json")
 img_pong_unity = Image.open("images/pong_unity.png")
 img_notepad_tkinter = Image.open("images/notepad_tkinter.png")
+img_OBDII = Image.open("images/OBDII.png")
 
 #Use local CSS
 def local_css(file_name):
@@ -74,6 +75,19 @@ with st.container():
             """
             Notatnik stworzony w Pythonie z wykorzystaniem biblioteki Tkinter. \n
             Link do repozytorium: [Notepad]("https://github.com/lmalanczuk/PongClone")
+            """
+        )
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_OBDII, caption="Skaner portu OBDII")
+    with text_column:
+        st.subheader("Skaner portu OBDII")
+        st.write(
+            """
+            Aplikacja do skanowania portu OBDII w samochodzie. \n
+            Link do repozytorium: [OBDII]("https://github.com/lmalanczuk/OBDReader")
             """
         )
 
