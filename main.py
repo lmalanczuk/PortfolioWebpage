@@ -86,13 +86,19 @@ with st.container():
     st.write('##')
 
     contact_form = """
-    <form action="https://formsubmit.co/l.malanczuk03@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Twoje imie" required>
-        <input type="email" name="email" placeholder="Twoj adres email" required>
-        <textarea name="Wiadomość" placeholder="Tutaj wpisz swoją wiadomość" required></textarea>
-        <button type="submit">Wyślij</button>
-    </form>
+   <form action="https://formsubmit.co/l.malanczuk03@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Twoje imie" required>
+    <input type="email" name="email" placeholder="Twoj adres email" required>
+    <textarea name="Wiadomość" placeholder="Tutaj wpisz swoją wiadomość" required></textarea>
+    <button type="submit" onclick="clearForm()">Wyślij</button>
+</form>
+
+<script>
+    function clearForm() {
+        document.querySelector("form").reset();
+    }
+</script>
     """
 
     left_column, right_column = st.columns(2)
