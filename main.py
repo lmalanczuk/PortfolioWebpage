@@ -85,9 +85,9 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_OBDII, caption="Skaner portu OBDII")
+        st.image(img_OBDII, caption="OBD II DTC Scanner")
     with text_column:
-        st.subheader("Skaner portu OBDII")
+        st.subheader("OBD II DTC Scanner")
         st.write(
             """
             An application that lets you scan DTC errors and analyze the status of your car using the OBD II port. \n
